@@ -1,0 +1,61 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>reveal.js</title>
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/black.css">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section>
+					<h2 id="possible-future-jobs">Possible Future Jobs</h2>
+					<ol style="list-style-type: decimal">
+					<li>Collection Manager</li>
+					<ul>
+					<li><a href="https://aspt.net/news-blog/2018/bell-museum-seeks-collections-manager">Herbarium Collection Manager-University of Minnesota</a></li>
+					<li><a href="https://aspt.net/news-blog/2018/herbarium-collections-manager-university-of-idaho">Herbarium Collections Manager-University of Idaho</a></li>
+					<li><a href="http://evol.mcmaster.ca/~brian/evoldir/Jobs/UMichiganHerbarium.CollectionManager">University of Michigan</a></li>
+					<li><a href="http://evol.mcmaster.ca/~brian/evoldir/Jobs/UIdaho.HerbariumCollectionsManager">University of Idaho Stillinger Herbarium</a></li>
+					</ul>
+					<li><a href="https://jobs.botany.org/index.php?module=clip&amp;type=user&amp;func=display&amp;tid=3&amp;pid=4512&amp;title=Restoration%20ecologist">Restoration ecologist</a></li>
+					<li><a href="https://aspt.net/news-blog/2018/director-of-science-and-conservation#.W5Kye91KiV5">Director of Science and Conservation</a></li>
+					</ol>
+				</section>
+			</div>
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+			// More info about config & dependencies:
+			// - https://github.com/hakimel/reveal.js#configuration
+			// - https://github.com/hakimel/reveal.js#dependencies
+			Reveal.initialize({
+				dependencies: [
+					{ src: 'plugin/markdown/marked.js' },
+					{ src: 'plugin/markdown/markdown.js' },
+					{ src: 'plugin/notes/notes.js', async: true },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+				]
+			});
+		</script>
+	</body>
+</html>
